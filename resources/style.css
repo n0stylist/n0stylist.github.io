@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #557A95;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-top: 0;
+}
+
+.nav-links li a {
+    position: relative;
+    text-decoration: none;
+    color: #272727;
+    margin: 0 1.7em;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.nav-links li a:before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: #272727;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+  }
+
+.nav-links li a:hover:before{
+    width: 100%;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.gkinds-right {
+    display: flex;
+    margin: 5em;
+    float: left;
+    width: 80%;
+    align-items: center;
+}
+
+.gkinds-left {
+    display: flex;
+    margin: 2em;
+    float: right;
+    width: 80%;
+    align-items: center;
+}
+
+.gkinds-left .textwrapper {
+    margin-left: 3em;
+}
+
+.gimg-right {
+    margin: 0 3.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.gimg-left {
+    margin: 0 3.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.gkinds-left img {
+    margin-right: 3em;
+}
+
+img {
+    max-height: 400px;
+    max-width: 500px;
+}
+
+li {
+    margin-top: 1em;
+    font-size: 19px;
+}
+
+
+
